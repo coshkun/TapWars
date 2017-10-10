@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D52DBF421F8A5B5B00064C1F /* counter1.caf in Resources */ = {isa = PBXBuildFile; fileRef = D52DBF401F8A5B5B00064C1F /* counter1.caf */; };
+		D52DBF431F8A5B5B00064C1F /* counter2.caf in Resources */ = {isa = PBXBuildFile; fileRef = D52DBF411F8A5B5B00064C1F /* counter2.caf */; };
+		D52DBF451F8A6CD900064C1F /* saber_start.caf in Resources */ = {isa = PBXBuildFile; fileRef = D52DBF441F8A6CD900064C1F /* saber_start.caf */; };
+		D52DBF471F8A6FAC00064C1F /* saber_end.caf in Resources */ = {isa = PBXBuildFile; fileRef = D52DBF461F8A6FAC00064C1F /* saber_end.caf */; };
+		D52DBF4D1F8A71AC00064C1F /* clash01.caf in Resources */ = {isa = PBXBuildFile; fileRef = D52DBF481F8A71AC00064C1F /* clash01.caf */; };
+		D52DBF4E1F8A71AC00064C1F /* clash02.caf in Resources */ = {isa = PBXBuildFile; fileRef = D52DBF491F8A71AC00064C1F /* clash02.caf */; };
+		D52DBF4F1F8A71AC00064C1F /* clash03.caf in Resources */ = {isa = PBXBuildFile; fileRef = D52DBF4A1F8A71AC00064C1F /* clash03.caf */; };
+		D52DBF501F8A71AC00064C1F /* clash04.caf in Resources */ = {isa = PBXBuildFile; fileRef = D52DBF4B1F8A71AC00064C1F /* clash04.caf */; };
+		D52DBF511F8A71AC00064C1F /* clash05.caf in Resources */ = {isa = PBXBuildFile; fileRef = D52DBF4C1F8A71AC00064C1F /* clash05.caf */; };
 		D53A6D761F8767DB007EC5C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A6D751F8767DB007EC5C0 /* AppDelegate.swift */; };
 		D53A6D781F8767DB007EC5C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A6D771F8767DB007EC5C0 /* ViewController.swift */; };
 		D53A6D7B1F8767DB007EC5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53A6D791F8767DB007EC5C0 /* Main.storyboard */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D52DBF401F8A5B5B00064C1F /* counter1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = counter1.caf; sourceTree = "<group>"; };
+		D52DBF411F8A5B5B00064C1F /* counter2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = counter2.caf; sourceTree = "<group>"; };
+		D52DBF441F8A6CD900064C1F /* saber_start.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = saber_start.caf; sourceTree = "<group>"; };
+		D52DBF461F8A6FAC00064C1F /* saber_end.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = saber_end.caf; sourceTree = "<group>"; };
+		D52DBF481F8A71AC00064C1F /* clash01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = clash01.caf; sourceTree = "<group>"; };
+		D52DBF491F8A71AC00064C1F /* clash02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = clash02.caf; sourceTree = "<group>"; };
+		D52DBF4A1F8A71AC00064C1F /* clash03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = clash03.caf; sourceTree = "<group>"; };
+		D52DBF4B1F8A71AC00064C1F /* clash04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = clash04.caf; sourceTree = "<group>"; };
+		D52DBF4C1F8A71AC00064C1F /* clash05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = clash05.caf; sourceTree = "<group>"; };
 		D53A6D721F8767DB007EC5C0 /* TapWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53A6D751F8767DB007EC5C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D53A6D771F8767DB007EC5C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +55,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D52DBF3F1F8A5B5B00064C1F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D52DBF481F8A71AC00064C1F /* clash01.caf */,
+				D52DBF491F8A71AC00064C1F /* clash02.caf */,
+				D52DBF4A1F8A71AC00064C1F /* clash03.caf */,
+				D52DBF4B1F8A71AC00064C1F /* clash04.caf */,
+				D52DBF4C1F8A71AC00064C1F /* clash05.caf */,
+				D52DBF461F8A6FAC00064C1F /* saber_end.caf */,
+				D52DBF441F8A6CD900064C1F /* saber_start.caf */,
+				D52DBF401F8A5B5B00064C1F /* counter1.caf */,
+				D52DBF411F8A5B5B00064C1F /* counter2.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		D53A6D691F8767DB007EC5C0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +90,7 @@
 		D53A6D741F8767DB007EC5C0 /* TapWars */ = {
 			isa = PBXGroup;
 			children = (
+				D52DBF3F1F8A5B5B00064C1F /* Sounds */,
 				D53A6D751F8767DB007EC5C0 /* AppDelegate.swift */,
 				D53A6D771F8767DB007EC5C0 /* ViewController.swift */,
 				D53A6D791F8767DB007EC5C0 /* Main.storyboard */,
@@ -126,9 +161,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52DBF471F8A6FAC00064C1F /* saber_end.caf in Resources */,
 				D53A6D831F8767DB007EC5C0 /* LaunchScreen.storyboard in Resources */,
+				D52DBF451F8A6CD900064C1F /* saber_start.caf in Resources */,
+				D52DBF421F8A5B5B00064C1F /* counter1.caf in Resources */,
+				D52DBF431F8A5B5B00064C1F /* counter2.caf in Resources */,
 				D53A6D801F8767DB007EC5C0 /* Assets.xcassets in Resources */,
 				D53A6D7B1F8767DB007EC5C0 /* Main.storyboard in Resources */,
+				D52DBF511F8A71AC00064C1F /* clash05.caf in Resources */,
+				D52DBF4E1F8A71AC00064C1F /* clash02.caf in Resources */,
+				D52DBF4D1F8A71AC00064C1F /* clash01.caf in Resources */,
+				D52DBF4F1F8A71AC00064C1F /* clash03.caf in Resources */,
+				D52DBF501F8A71AC00064C1F /* clash04.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +337,7 @@
 				D53A6D891F8767DB007EC5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
